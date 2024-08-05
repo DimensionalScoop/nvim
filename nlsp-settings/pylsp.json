@@ -1,0 +1,6 @@
+{
+  "pylsp.plugins.pycodestyle.enabled": false,
+  "pylsp.plugins.pyflakes.enabled": false,
+  "pylsp.plugins.jedi_definition.enabled": false,
+  "pylsp.plugins.jedi_hover.enabled": false
+}

@@ -1,0 +1,5 @@
+{
+  "python.analysis.diagnosticMode": "off",
+  "python.analysis.typeCheckingMode": "off",
+  "python.analysis.useLibraryCodeForTypes": true
+}
