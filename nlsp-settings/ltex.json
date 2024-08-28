@@ -1,4 +1,5 @@
 {
   "ltex.language": "de-DE",
-  "ltex.additionalRules.enablePickyRules": true
+  "ltex.additionalRules.enablePickyRules": true,
+  "ltex.additionalRules.languageModel": "/home/elayn/.local/share/ngrams"
 }

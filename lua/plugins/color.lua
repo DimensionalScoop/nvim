@@ -2,8 +2,10 @@ return {
   {
     "catppuccin/nvim",
     lazy = true,
-    name = "catppuccin",
+    priority = 100,
+    -- name = "catppuccin",
     opts = {
+      flavour = "frappe", --bright: latte
       color_overrides = {
         mocha = {
           text = "#F4CDE9",

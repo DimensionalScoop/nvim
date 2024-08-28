@@ -39,4 +39,10 @@ map("t", "<C-l>", "<cmd>wincmd l<cr>", { desc = "Go to Right Window" })
 map("t", "<C-t>", "<cmd>close<cr>", { desc = "Hide Terminal" })
 
 -- signature help
-map("i", "<c-s>", vim.lsp.buf.signature_help)
+map({ "n", "i" }, "<C-s>", vim.lsp.buf.signature_help)
+map({ "n", "i" }, "<C-d>", "<cmd>lua vim.lsp.diagnostic.show_line_diagnostics()<CR>")
+
+-- modern copy & paste
+map({ "n", "v", "c" }, "<C-c>", '"+y', { desc = "Copy to clipboard" })
+map({ "n", "v", "c" }, "<C-v>", '"+p', { desc = "Paste from clipboard" })
+map({ "i" }, "<C-v>", "<C-r>+", { noremap = true, silent = true, desc = "Copy to clipboard" })

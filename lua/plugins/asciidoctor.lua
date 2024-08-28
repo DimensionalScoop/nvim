@@ -8,4 +8,5 @@ return {
       -- Add user configuration here
     },
   },
+  -- { "habamax/vim-asciidoctor" },
 }

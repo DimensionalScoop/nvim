@@ -5,13 +5,15 @@
 vim.opt.wrap = true
 vim.opt.colorcolumn = "80"
 
+vim.opt.clipboard = ""
+
 vim.opt.spelllang = { "en_us", "de_de" }
 -- require("which-key").config
 -- lvim.builtin.treesitter.rainbow.enable = true
 
 if vim.g.neovide then
-  -- vim.o.guifont = "VictorMono Nerd Font"
-  vim.o.guifont = "Iosevka SS08"
+  vim.o.guifont = "VictorMono Nerd Font"
+  -- vim.o.guifont = "Iosevka SS08"
   vim.g.neovide_transparency = 1
   vim.g.neovide_refresh_rate_idle = 1
   vim.g.neovide_cursor_vfx_mode = "pixiedust"
